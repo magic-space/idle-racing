@@ -68,10 +68,16 @@ const About = () => {
       </Box>
 
       <Text marginTop="24px" textAlign="center" fontSize="24px">
-        About Me
+        Über Mich
       </Text>
       <Text textAlign="left" fontSize="16px" marginTop="16px">
-        bmcfaria :)
+        Hallo und herzlich willkommen,
+        mein Name ist Florian Engelhardt und wollte euch dieses Spiel vorstellen.
+        Das Spiel ist ursprünglich von bmcfaria :)
+        Ich habe ein Paar Veränderungen vorgenommen.
+        Des weiteren habe ich angefangen das Spiel ins deutsche zu übersetzen.
+        
+
       </Text>
 
       <BottomSpacer />
