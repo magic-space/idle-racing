@@ -117,7 +117,7 @@ const CarDetailsDealer = ({ car, ...props }) => {
           />
           <AttributeCircle
             attr={car[ATTRIBUTE_TYPES.SPEED]}
-            text="SPD"
+            text="KmH"
             showMax
           />
           <AttributeCircle
