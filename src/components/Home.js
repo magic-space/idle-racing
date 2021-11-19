@@ -93,15 +93,15 @@ const Home = () => {
       </Text>
       {cars.length === 0 && (
         <Flex margin="auto" direction="column">
-          <Text fontSize="24px">Buy your first car</Text>
-          <Text fontSize="24px">and start racing!</Text>
+          <Text fontSize="24px">Kaufe dein erstes Auto</Text>
+          <Text fontSize="24px">und beginne Rennen zu fahren!</Text>
           <ChakraLink
             as={Link}
             to="/dealer"
             color="teal.500"
             margin="8px auto 0"
           >
-            go to Dealer
+            Zum Autohändler
           </ChakraLink>
         </Flex>
       )}
@@ -138,13 +138,13 @@ const Home = () => {
           <HomeCardMoney />
           <HomeCardButton icon={SettingsIcon} to="/settings">
             <Text flexGrow="1" w="100%">
-              Settings
+              Einstellungen
             </Text>
           </HomeCardButton>
 
           <HomeCardButton icon={InfoIcon} to="/about">
             <Text flexGrow="1" w="100%">
-              About
+              Über das Spiel
             </Text>
           </HomeCardButton>
         </Flex>
