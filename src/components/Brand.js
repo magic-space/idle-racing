@@ -66,7 +66,7 @@ const Brand = () => {
 
       {cars.length === 0 && (
         <Text marginTop="16px" textAlign="center" fontSize="24px">
-          This brand doesn't exist
+          Diese Marke existiert nicht
         </Text>
       )}
 
@@ -83,7 +83,7 @@ const Brand = () => {
         >
           {!allCarsAcquired && (
             <Text margin="auto" textAlign="center">
-              Acquire all "{capitalize(brand)}" cars to unlock brand sponsor (
+              Acquire all "{capitalize(brand)}" Autos, um Markensponsor freizuschalten (
               {`${carsAcquired}/${cars.length} cars`})
             </Text>
           )}
