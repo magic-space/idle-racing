@@ -79,7 +79,7 @@ const CarDetailsGarage = ({ car, onClose, ...props }) => {
           bg={showColorPicker ? colors.purple : colors.darkGray}
           marginBottom="6px"
         >
-          Color picker
+          Farbwähler
         </Button>
       </Flex>
 
