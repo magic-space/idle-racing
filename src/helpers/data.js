@@ -1,38 +1,67 @@
 import uuid from 'uuid-random';
+
 import { ATTRIBUTE_TYPES } from './utils';
+
 import carsFile from '../assets/lists/cars.json';
+
 import tracksFile from '../assets/lists/tracks.json';
+
 import raceSponsorsFile from '../assets/lists/raceSponsors.json';
+
 import raceEventsFile from '../assets/lists/raceEvents.json';
 
 const inDev = process.env.NODE_ENV === 'development';
+
 const devDuration = inDev && 1 * 1000;
 
 export const availableColors = [
-  'Blau',
-  'Dunkelgrau',
-  'Grau',
-  'Grün',
-  'Hellblau',
-  'Hellgrau',
-  'Orange',
-  'Rosa',
-  'Violett',
-  'Rot',
-  'Gelb',
+
+  'blue',
+
+  'darkgray',
+
+  'gray',
+
+  'green',
+
+  'lightblue',
+
+  'lightgray',
+
+  'orange',
+
+  'pink',
+
+  'purple',
+
+  'red',
+
+  'yellow',
+
 ];
 
 export const dealerBrands = [
-  { type: 'Kompakt', name: 'Kompakt' },
-  { type: 'City', name: 'City' },
-  { type: 'Kombi', name: 'Kombi' },
-  { type: 'Offroad', name: 'Offroad' },
-  { type: 'Supercar', name: 'Supercar' },
-  { type: 'F1', name: 'F1' },
-  { type: 'Rennwagen', name: 'Rennwagen' },
-  { type: 'Nascar', name: 'Nascar' },
-  { type: 'Prototyp', name: 'Prototyp' },
+
+  { type: 'compact', name: 'compact' },
+
+  { type: 'city', name: 'city' },
+
+  { type: 'family', name: 'family' },
+
+  { type: 'offroad', name: 'offroad' },
+
+  { type: 'supercar', name: 'supercar' },
+
+  { type: 'f1', name: 'f1' },
+
+  { type: 'racer', name: 'racer' },
+
+  { type: 'nascar', name: 'nascar' },
+
+  { type: 'prototype', name: 'prototype' },
+
   { type: 'heavy', name: 'heavy' },
+
 ];
 
 const generateRaceEvent = raceEvent => ({
