@@ -143,7 +143,7 @@ const CarDetailsDealer = ({ car, ...props }) => {
             lineHeight="16px"
             padding="0 8px"
           >
-            Not enough garage space
+            Nicht genügend Platz in der Garage
           </Text>
         )}
       </Flex>
