@@ -19,9 +19,9 @@ import { versionSelector } from '../state/selectors';
 const inDev = process.env.NODE_ENV === 'development';
 
 const loadSaveStates = {
-  NONE: 'NONE',
-  SUCCESS: 'SUCCESS',
-  ERROR: 'ERROR',
+  NONE: 'Nicht Verfügbar',
+  SUCCESS: 'Erfolgreich',
+  ERROR: 'Fehler',
 };
 
 const Settings = () => {
@@ -94,10 +94,10 @@ const Settings = () => {
         alignItems="center"
       >
         <Text lineHeight="18px" textAlign="center" fontSize="18px">
-          Reset save data
+          Speicherdaten Zurücksetzen
         </Text>
         <Button marginTop="8px" bg={colors.red} onClick={reset}>
-          Reset
+          Zurücksetzen
         </Button>
       </Flex>
       <Flex
@@ -110,7 +110,7 @@ const Settings = () => {
         alignItems="center"
       >
         <Text lineHeight="18px" textAlign="center" fontSize="18px">
-          Load save data
+          Speicherdaten Laden
         </Text>
         <Button
           as="label"
@@ -118,7 +118,7 @@ const Settings = () => {
           marginTop="8px"
           bg={colors.red}
         >
-          Load
+          Laden
         </Button>
         <input
           id="upload-save"
@@ -129,12 +129,12 @@ const Settings = () => {
         />
         {loadSaveNotification === loadSaveStates.SUCCESS && (
           <Text marginTop="8px" padding="0 4px" bg={colors.green}>
-            Success
+            Erfolgreich
           </Text>
         )}
         {loadSaveNotification === loadSaveStates.ERROR && (
           <Text marginTop="8px" padding="0 4px" bg={colors.red}>
-            Bad file format
+            Falsches Dateiformat
           </Text>
         )}
       </Flex>
@@ -148,10 +148,10 @@ const Settings = () => {
         alignItems="center"
       >
         <Text lineHeight="18px" textAlign="center" fontSize="18px">
-          Download save data
+          Speicherdaten herunterladen
         </Text>
         <Button marginTop="8px" bg={colors.red} onClick={downloadSaveFile}>
-          Download
+          Herunterladen
         </Button>
       </Flex>
       <Flex
@@ -178,14 +178,14 @@ const Settings = () => {
           alignItems="center"
         >
           <Text lineHeight="18px" textAlign="center" fontSize="18px">
-            Rich
+            Reich
           </Text>
           <Button
             marginTop="8px"
             bg={colors.red}
             onClick={() => resetDev({ money: 9999999999 })}
           >
-            Reset
+            Zurücksetzen
           </Button>
         </Flex>
       )}
@@ -200,14 +200,14 @@ const Settings = () => {
           alignItems="center"
         >
           <Text lineHeight="18px" textAlign="center" fontSize="18px">
-            Enough for car and lvl1 upgrades
+            Enough for car and lvl1 Upgrade
           </Text>
           <Button
             marginTop="8px"
             bg={colors.red}
             onClick={() => resetDev({ money: 722 })}
           >
-            Reset
+            R
           </Button>
         </Flex>
       )}
