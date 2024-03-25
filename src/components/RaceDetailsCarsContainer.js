@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react';
+Drimport React, { useContext, useEffect, useState } from 'react';
 import { Box, Flex, Text } from '@chakra-ui/core';
 import { Link } from 'react-router-dom';
 import { Link as ChakraLink } from '@chakra-ui/core';
@@ -106,7 +106,7 @@ const RaceDetailsCarsContainer = ({ cars, selectCar, onClose, ...props }) => {
           {cars.length === 0 && (
             <Flex margin="auto" direction="column">
               <Text textAlign="center" fontSize="24px">
-                You need to buy a car first
+                Du benötigst erst ein Auto
               </Text>
               <ChakraLink
                 as={Link}
@@ -114,7 +114,7 @@ const RaceDetailsCarsContainer = ({ cars, selectCar, onClose, ...props }) => {
                 color="teal.500"
                 margin="8px auto 0"
               >
-                go to Dealer
+                gehe zum Händler 
               </ChakraLink>
             </Flex>
           )}
