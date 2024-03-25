@@ -34,8 +34,8 @@ const Navigation = ({ icon, iconOnly, ...props }) => {
         boxShadow={['0px -4px 4px rgba(0, 0, 0, 0.25)', 'none']}
       >
         <NavigationHomeButton />
-        <NavigationButton icon={CarIcon} to="/dealer" text="Dealer" />
-        <NavigationButton icon={TrophyIcon} to="/race" text="Race" />
+        <NavigationButton icon={CarIcon} to="/dealer" text="Händler" />
+        <NavigationButton icon={TrophyIcon} to="/race" text="Rennen" />
         <NavigationButton
           icon={GarageIcon}
           to="/garage"
