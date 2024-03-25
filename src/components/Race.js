@@ -81,7 +81,7 @@ const Race = props => {
         borderRadius="8px"
         onClick={openAllEvents}
       >
-        All Race Events
+        Alle Rennveranstaltungen
       </Button>
 
       <Modal isOpen={showAllEvents} backOnClose>
