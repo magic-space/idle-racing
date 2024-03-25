@@ -89,7 +89,7 @@ const CardCarDealer = ({ car, ...props }) => {
           zIndex="1"
         >
           <Text fontSize="24px" margin="auto">
-            Bought
+            Gekauft
           </Text>
         </BoughtAnimation>
       )}
