@@ -93,8 +93,8 @@ const Home = () => {
       </Text>
       {cars.length === 0 && (
         <Flex margin="auto" direction="column">
-          <Text fontSize="24px">Buy your first car</Text>
-          <Text fontSize="24px">and start racing!</Text>
+          <Text fontSize="24px">Kaufe dein erstes Auto</Text>
+          <Text fontSize="24px">und beginne ein Rennen!</Text>
           <ChakraLink
             as={Link}
             to="/dealer"
@@ -119,7 +119,7 @@ const Home = () => {
             {...(isLegend && { iconColor: colors.lightBlue })}
           >
             <Box flexGrow="1">
-              <Text w="100%">Stars</Text>
+              <Text w="100%">Sterne</Text>
               {isLegend && (
                 <Text w="100%" color={colors.lightBlue}>
                   Legend
@@ -138,13 +138,13 @@ const Home = () => {
           <HomeCardMoney />
           <HomeCardButton icon={SettingsIcon} to="/settings">
             <Text flexGrow="1" w="100%">
-              Settings
+              Einstellungen
             </Text>
           </HomeCardButton>
 
           <HomeCardButton icon={InfoIcon} to="/about">
             <Text flexGrow="1" w="100%">
-              About
+              Über Uns
             </Text>
           </HomeCardButton>
         </Flex>
