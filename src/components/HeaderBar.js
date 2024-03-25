@@ -228,21 +228,21 @@ const HeaderBar = () => {
             justifyContent="space-around"
           >
             <ExperienceButton
-              text="Business exp"
+              text="Geschäftserfahrung"
               experience={experienceBusiness}
               color={colors.orange}
               onClick={() => openUpgradeModal('business')}
               selected={expTypeModal === 'business'}
             />
             <ExperienceButton
-              text="Race exp"
+              text="Rennen exp"
               experience={experienceRace}
               color={colors.green}
               onClick={() => openUpgradeModal('race')}
               selected={expTypeModal === 'race'}
             />
             <ExperienceButton
-              text="Mechanic exp"
+              text="Mechanik exp"
               experience={experienceMechanic}
               color={colors.lightBlue}
               onClick={() => openUpgradeModal('mechanic')}
