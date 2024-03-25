@@ -59,7 +59,7 @@ const CarsContainer = ({ cars, ...props }) => {
                   flexDirection="column"
                   margin="auto"
                 >
-                  <Text margin="auto">Freier Platz</Text>
+                  <Text margin="auto">Empty slot</Text>
                 </Flex>
               </Flex>
             </Box>
@@ -98,13 +98,14 @@ const Garage = () => {
 
         {cars.length === 0 && (
           <Flex margin="auto" direction="column">
-            <Text fontSize="24px">Deine Garage ist leer
+            <Text fontSize="24px">Your garage is empty</Text>
             <ChakraLink
               as={Link}
               to="/dealer"
               color="teal.500"
-              margin="8px auto 0">
-              gehe zum Händler
+              margin="8px auto 0"
+            >
+              go to Dealer
             </ChakraLink>
           </Flex>
         )}
