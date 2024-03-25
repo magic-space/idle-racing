@@ -98,13 +98,12 @@ const Garage = () => {
 
         {cars.length === 0 && (
           <Flex margin="auto" direction="column">
-            <Text fontSize="24px">Uuups Deine Garage ist leer
+            <Text fontSize="24px">Deine Garage ist leer
             <ChakraLink
               as={Link}
               to="/dealer"
               color="teal.500"
-              margin="8px auto 0"
-            >
+              margin="8px auto 0">
               gehe zum Händler
             </ChakraLink>
           </Flex>
