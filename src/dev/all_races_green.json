@@ -5,7 +5,7 @@
   "garageCars": [
     {
       "id": "6c837e64-4371-45ab-a75b-f58b857e4c8e",
-      "name": "Basic",
+      "name": "Standard",
       "type": "fwd",
       "acc": {
         "base": 1,
@@ -40,7 +40,7 @@
       "basePrice": 250,
       "price": 1450,
       "dealerCar": "bfd0a683-708e-4055-8914-6fe4521b140a",
-      "brand": "compact",
+      "brand": "kompakt",
       "timestamp": 1603403502248,
       "reward": false,
       "tuning": { "acc": 0, "spd": 0, "hnd": 0 },
